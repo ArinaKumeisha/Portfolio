@@ -1,0 +1,25 @@
+.title {
+    background-color: gainsboro;
+}
+
+.footerBlock {
+    height: 60vh;
+    background-color: #c2c2f3;
+}
+
+.footerContainer {
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    width: 80%;
+    height: 90px;
+    border: 1px solid;
+    justify-content: space-between;
+}
+
+.item_grew {
+    width: 100px;
+    background-color: grey;
+}

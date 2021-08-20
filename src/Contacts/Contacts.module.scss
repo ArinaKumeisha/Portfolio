@@ -1,0 +1,38 @@
+
+.contactsBlock {
+  height: 100vh;
+  background-color: #f0cfcf;
+
+}
+
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid;
+  width: 80%;
+  margin: 0 auto;
+
+
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  width: 280px;
+
+
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.itemTexteria {
+  min-height: 100px;
+
+}
+
+
