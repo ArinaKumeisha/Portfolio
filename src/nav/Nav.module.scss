@@ -1,0 +1,25 @@
+@import "../common/sass/mixins";
+
+.nav {
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  cursor: pointer;
+
+  a {
+    @include text(18px, black, 16px);
+
+    &:hover {
+      text-decoration: none;
+      color: blue;
+    }
+
+    .active {
+      color: blue;
+    }
+  }
+  @media screen and (max-width: 400px){
+    display: none;
+  }
+}

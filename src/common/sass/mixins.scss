@@ -1,0 +1,18 @@
+@import './variables';
+
+@mixin text ($fontSize, $color, $fontWeight: null){
+  font-size:$fontSize;
+  color:$color;
+  font-weight:$fontWeight;
+}
+
+@mixin container(){
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin image ($minHeight){
+  min-height: $minHeight;
+  background-size: cover;
+  background-position: center;
+}

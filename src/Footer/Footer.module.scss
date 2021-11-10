@@ -1,0 +1,43 @@
+@import '../common/sass/variables';
+
+.title {
+  color: gainsboro;
+  background-color: #343333;
+}
+
+.footerBlock {
+  height: 80vh;
+  background-color: $bgSecondColor;
+
+  a {
+    text-decoration: none;
+    color: white;
+    background-color: #555454;
+  }
+}
+
+.footerContainer {
+  flex-direction: column;
+
+}
+
+.field {
+  display: flex;
+  width: 50%;
+  height: 40px;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+  @media screen and (max-width: 620px) {
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
+
+.item_grew {
+  width: 100px;
+  background-color: #292929;
+  border-radius: 5px;
+}

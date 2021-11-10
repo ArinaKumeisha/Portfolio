@@ -1,17 +1,47 @@
 import React from 'react';
-import  style from './Nav.module.css'
+import style from './Nav.module.scss'
+import {Link} from "react-scroll";
+
 
 const Nav = () => {
     return (
         <div className={style.nav}>
-<a href="">Главная</a>
-<a href="">Навыки</a>
-<a href="">Проекты</a>
-<a href="">Контакты</a>
+            <Link
+                activeClass={style.active}
+                to=""
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
+            >Home</Link>
 
+            <Link
+                activeClass={style.active}
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
+            >Skills</Link>
+            <Link
+                activeClass={style.active}
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
+            >Projects</Link>
 
+            <Link
+                activeClass={style.active}
+                to="contacts"
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
+            >Contacts</Link>
         </div>
-    );
-}
+    )
+    }
 
 export default Nav;
