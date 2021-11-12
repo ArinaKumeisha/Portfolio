@@ -14,9 +14,9 @@ const Skills = () => {
 
     return (
         <div id='skills' className={style.skillsBlock}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-
+            <div className={style.skillsContainer}>
                 <Title title={'Skills'}/>
+
                 <div className={style.skills}>
 
                     <Roll left> <Skill

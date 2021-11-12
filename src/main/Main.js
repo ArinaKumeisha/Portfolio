@@ -1,8 +1,6 @@
 import React from 'react';
 import style from './main.module.scss';
-import styleContainer from '../common/styles/container.module.css'
 import mainPhoto from "../assets/image/photo_2021-10-08_00-22-05.jpg";
-import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-tilt'
 
@@ -13,11 +11,12 @@ const Main = () => {
         backgroundImage: `url(${mainPhoto})`,
     }
     return (
-        <div className={style.mainBlock}>
-            <div className={`${styleContainer.container} ${style.mainContainer}`}>
+        <div className={style.mainBlock} id='main'>
+            <div className={style.mainContainer}>
                 <div className={style.greeting}>
                     <p>Hello everyone!</p>
-                    <b>I am Arina </b>
+                    <span>I am </span>
+                    <h5>Arina </h5>
                     <b>Kumeisha</b>
 
                     <p><ReactTypingEffect
@@ -32,8 +31,6 @@ const Main = () => {
                 </Tilt>
 
             </div>
-
-
         </div>
 
     );

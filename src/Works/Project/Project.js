@@ -2,10 +2,12 @@ import React from 'react';
 import style from './Project.module.scss'
 import {Button} from "@mui/material";
 import styles from "../../common/components/button/Button.module.scss";
+import Swing from "react-reveal/Swing";
 
 
 const Project = (props) => {
     return (
+        <Swing>
         <div className={style.project}>
             <div className={style.img} style={props.style} >
                 <Button color={"inherit"}
@@ -22,6 +24,7 @@ const Project = (props) => {
                 <p className={style.description}>{props.description}</p>
             </div>
         </div>
+            </Swing>
     );
 };
 

@@ -3,12 +3,16 @@
 .nav {
   width: 340px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: stretch;
   cursor: pointer;
+  @media screen and (max-width: 460px) {
+    justify-content: center;
+  }
 
   a {
     @include text(18px, black, 16px);
+    margin-right: 10px;
 
     &:hover {
       text-decoration: none;
@@ -19,7 +23,6 @@
       color: blue;
     }
   }
-  @media screen and (max-width: 400px){
-    display: none;
-  }
+
+
 }

@@ -5,6 +5,7 @@
   flex-direction: column;
   width: 400px;
   background: $bgSecondColor;
+  margin-bottom: 20px;
 
   .img {
     @include image(300px);

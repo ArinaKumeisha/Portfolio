@@ -27,25 +27,23 @@ const Projects = () => {
         <div  id='projects' className={style.projectBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
               <Title title={'Projects'}/>
-                <Jello>
                 <div className={style.projects}>
                     <Project
                         style={social}
                         title={"TodoList"}
-                        description={"Проект написан на React TypeScriptПроект написан на Redux TypeScript"}
+                        description={"The project is written in React, Redux and TypeScript"}
                         href={''}/>
                     <Project
                         style={counter}
                         title={"Counter"}
-                        description={"Проект написан на Redux TypeScript.Проект написан на Redux TypeScript"}
+                        description={"The project is written in React, Redux and TypeScript"}
                         href={'https://arinakumeisha.github.io/counter_Redux/'}/>
                     <Project
                         style={todo}
                         title={"Social Network"}
-                        description={"Проект написан на Redux TypeScript.Проект написан на Redux TypeScript"}
+                        description={"The project is written in React, Redux and TypeScript"}
                         href={'https://arinakumeisha.github.io/my_new_social_network/#/profile'}/>
                 </div>
-                </Jello>
             </div>
         </div>
     );

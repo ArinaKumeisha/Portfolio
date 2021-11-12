@@ -1,8 +1,11 @@
 @import '../common/sass/mixins';
 
 .mainBlock {
-  min-height: 180vh;
+  margin-top: 80px;
+  min-height: 150vh;
   background-color: #1c1f2c;
+  position: relative;
+  z-index: 3;
 
   .particles {
     position: absolute;
@@ -14,6 +17,13 @@
   }
 
   .mainContainer {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     @media screen and (max-width: 835px) {
       justify-content: center;
     }
@@ -21,10 +31,11 @@
     .greeting {
       @include text(40px, #ffffff);
       width: 300px;
+      height: 500px;
       margin-bottom: 15px;
       margin-left: 15px;
 
-      b {
+      h5 {
         position: relative;
         display: inline-block;
         letter-spacing: 5px;
@@ -32,7 +43,7 @@
         &:before {
           content: '';
           position: absolute;
-          height: 20px;
+          height: 7px;
           width: 100%;
           background-color: red;
           bottom: 0;
@@ -45,19 +56,7 @@
       margin-top: 60px;
       width: 300px;
       @include image(500px);
-
-      &:before {
-        margin-top: 20px;
-        content: '';
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        border: 5px solid #ecdfc6;
-        left: 10px;
-        top: 15px;
-
-        z-index: -1;
-      }
+      border-right: solid 2px red;
     }
 
   }

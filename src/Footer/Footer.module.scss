@@ -6,7 +6,7 @@
 }
 
 .footerBlock {
-  height: 80vh;
+  height: 100vh;
   background-color: $bgSecondColor;
 
   a {
@@ -18,26 +18,17 @@
 
 .footerContainer {
   flex-direction: column;
-
 }
 
 .field {
   display: flex;
   width: 50%;
-  height: 40px;
   justify-content: space-between;
   text-align: center;
   flex-wrap: wrap;
-  @media screen and (max-width: 620px) {
-    justify-content: center;
-    align-items: center;
-  }
-
 
 }
 
 .item_grew {
-  width: 100px;
-  background-color: #292929;
-  border-radius: 5px;
+  width: 105px;
 }
