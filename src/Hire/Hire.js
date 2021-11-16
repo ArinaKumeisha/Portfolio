@@ -12,13 +12,13 @@ const Hire = () => {
                         You can call me or write in the form below
                     </h2>
 
-                    <p>
-                        <i>+375-33-673-77-62
-                        </i>
+                   <p>
+                        +375-33-673-77-62
+
                     </p>
-                    <p>
+                    <b>
                         <b style={{fontSize: '25px'}}>Arina</b>
-                    </p>
+                    </b>
 
 
                 </div>

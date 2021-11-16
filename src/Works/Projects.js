@@ -6,7 +6,6 @@ import style from './Projects.module.scss';
 import todoImage from '../assets/image/social.jpg'
 import socialImage from '../assets/image/images.jpg'
 import counterImage from '../assets/image/counter.png'
-import Jello from "react-reveal/Jello";
 
 
 const Projects = () => {

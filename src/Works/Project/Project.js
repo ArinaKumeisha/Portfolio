@@ -19,7 +19,7 @@ const Project = (props) => {
 
             <div className={style.info}>
                 <h4 className={style.projectTitle}>
-                   <a>{props.title}</a>
+                   <div>{props.title}</div>
                 </h4>
                 <p className={style.description}>{props.description}</p>
             </div>
