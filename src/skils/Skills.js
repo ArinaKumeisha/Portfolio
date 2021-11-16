@@ -4,9 +4,8 @@ import Skill from "./skill/Skill";
 import Title from "../common/components/title/Title";
 import react from '../image/react.png'
 import redux from '../image/redux.png'
-import js from '../image/js.jpg'
-import csss from '../image/css.jpg'
-import Roll from "react-reveal/Roll";
+import js from '../image/js.png'
+import css from '../image/css.png'
 
 
 const Skills = () => {
@@ -18,25 +17,27 @@ const Skills = () => {
 
                 <div className={style.skills}>
 
-                    <Roll left> <Skill
+                    <Skill
                         title={"React"}
-                        text={"I have been studying React for over 6 months."}
-                        image={react}/></Roll>
+                        text={"I am learning react and writing applications using it"}
+                        image={react}/>
 
-                    <Roll right> <Skill
+                    <Skill
                         title={"Redux"}
-                        text={"I am learning redux, I use redux in my applications as a business state"}
-                        image={redux}/></Roll>
+                        text={" I use redux and Redux toolkit in my applications as a business state"}
+                        image={redux}/>
 
-                    <Roll left><Skill
+                    <Skill
                         title={"JS"}
-                        text={"I improve my knowledge of js every day, this is where codewars and books help me"}
-                        image={js}/></Roll>
+                        text={"I improve my knowledge, this is where codewars and books help me"}
+                        image={js}/>
 
-                    <Roll right> <Skill
+                    <Skill
                         title={"CSS"}
-                        text={"I am learning CSS and expanding my knowledge in SCSS"}
-                        image={csss}/></Roll>
+                        text={"I am learning CSS,  I improve  my knowledge in SCSS"}
+                        image={css}/>
+
+
                 </div>
 
             </div>

@@ -1,51 +1,85 @@
 @import '../common/sass/variables';
 
-.title {
-  color: gainsboro;
-  padding: 20px;
-}
 .footerBlock {
-  height: 100vh;
-  background-color: $bgSecondColor;
+  height: 130vh;
+  background-color: $phoneColor;
   @media screen and (max-width: 835px) {
     justify-content: center;
   }
+  .title {
+    color: gainsboro;
+    padding: 20px;
+  }
+
   a {
     text-decoration: none;
     color: white;
     background-color: #302f2f;
   }
-}
 
-.footerContainer {
-  flex-direction: column;
-}
-
-.field {
-  display: flex;
-  width: 60%;
-  justify-content: space-between;
-  text-align: center;
-  flex-wrap: wrap;
-  /*.item_grew {
-    width: 105px;
-  }*/
-
-  .link{
-    display: flex;
-    width:72px;
-    height:72px;
-    border-radius: 50%;
-    border: 6px solid #a521f1;
-    align-items: center;
-    justify-content:center;
-
-    .git{
-      font-size: 30px;
-      color: #a521f1;
+  .footerContainer {
+    flex-direction: column;
 
 
+    .field {
+      display: flex;
+      width: 60%;
+      justify-content: space-between;
+      text-align: center;
+      flex-wrap: wrap;
+      align-items: stretch;
 
+      @media screen and (max-width: 870px) {
+        width: 62%;
+        flex-wrap: wrap;
+        margin: 10px;
+      }
+      @media screen and (max-width: 825px) {
+        width: 65%;
+      }
+      @media screen and (max-width: 780px) {
+        width: 67%;
+      }
+      @media screen and (max-width: 750px) {
+        width: 70%;
+      }
+      @media screen and (max-width: 714px) {
+        width: 75%;
+      }
+      @media screen and (max-width: 680px) {
+        width: 90%;
+      }
+      @media screen and (max-width: 650px) {
+        width: 100%;
+      }
+      @media screen and (max-width: 520px) {
+        width: 60%;
+      }
+      @media screen and (max-width: 430px) {
+        width: 40%;
+        justify-content: center;
+      }
+      @media screen and (max-width: 314px) {
+        width: 40%;
+        justify-content: center;
+      }
+
+      .link {
+        display: flex;
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        border: 6px solid #a521f1;
+        align-items: center;
+        justify-content: center;
+
+        .git {
+          font-size: 30px;
+          color: #a521f1;
+
+
+        }
+      }
     }
   }
 }

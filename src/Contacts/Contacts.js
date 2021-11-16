@@ -19,8 +19,7 @@ export const Contacts = () => {
         e.target.reset()
     };
     return (
-        <Grid container justifyContent={'center'} id='contacts'>
-            <Grid className={style.contactsContainer}>
+            <Grid className={style.contactsContainer} id={'contacts'}>
                 <Fade left>
                     <form onSubmit={sendEmail}>
                         <FormControl fullWidth sx={{width: 280}}>
@@ -58,6 +57,5 @@ export const Contacts = () => {
                     </form>
                 </Fade>
             </Grid>
-        </Grid>
     )
 }

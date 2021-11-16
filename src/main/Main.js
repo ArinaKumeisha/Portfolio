@@ -14,15 +14,15 @@ const Main = () => {
         <div className={style.mainBlock} id='main'>
             <div className={style.mainContainer}>
                 <div className={style.greeting}>
-                    <p>Hello everyone!</p>
+                    <h4>Hello everyone!</h4>
                     <span>I am </span>
-                    <h5> Arina </h5>
-                    <b>Kumeisha</b>
+                    <span> Arina </span>
+                    <span className={style.name}>Kumeisha</span>
 
-                    <div><ReactTypingEffect
+                    <h5><ReactTypingEffect
                         text={["I like React and Redux.", "And I am React developer"]}
                     />
-                    </div>
+                    </h5>
 
                 </div>
                 <Tilt className="Tilt" options={{max: 25}}>
