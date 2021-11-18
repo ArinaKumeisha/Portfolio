@@ -31,7 +31,7 @@ const Projects = () => {
                         style={social}
                         title={"TodoList"}
                         description={"The project is written in React, Redux and TypeScript"}
-                        href={''}/>
+                        href={'https://arinakumeisha.github.io/presentation_todo/'}/>
                     <Project
                         style={counter}
                         title={"Counter"}
@@ -41,7 +41,7 @@ const Projects = () => {
                         style={todo}
                         title={"Social Network"}
                         description={"The project is written in React, Redux and TypeScript"}
-                        href={'https://arinakumeisha.github.io/my_new_social_network/#/profile'}/>
+                        href={'https://arinakumeisha.github.io/my_new_social_network/'}/>
                 </div>
             </div>
         </div>
