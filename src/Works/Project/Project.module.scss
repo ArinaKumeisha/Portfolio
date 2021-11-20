@@ -3,9 +3,18 @@
 .project {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 370px;
   background: $bgSecondColor;
   margin-bottom: 20px;
+  text-decoration: none;
+
+  @media (max-width:500px) {
+    width: 300px;
+  }
+
+  @media (max-width:420px) {
+    width: 260px;
+  }
 
   .img {
     @include image(300px);

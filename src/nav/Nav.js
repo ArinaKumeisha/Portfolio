@@ -40,7 +40,7 @@ const Nav = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-            >Contacts</Link>
+            >Contact</Link>
         </div>
     )
     }

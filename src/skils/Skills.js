@@ -24,7 +24,7 @@ const Skills = () => {
 
                     <Skill
                         title={"Redux"}
-                        text={" I use redux and Redux toolkit in my applications as a business state"}
+                        text={" I use Redux and Redux toolkit in my applications as a business state"}
                         image={redux}/>
 
                     <Skill

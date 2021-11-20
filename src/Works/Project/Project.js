@@ -1,20 +1,17 @@
 import React from 'react';
 import style from './Project.module.scss'
-import {Button} from "@mui/material";
-import styles from "../../common/components/button/Button.module.scss";
 import Swing from "react-reveal/Swing";
-
+import stylehref from '../../common/styles/href.module.scss'
+import Tilt from "react-tilt";
 
 const Project = (props) => {
     return (
+        <Tilt className="Tilt" options={{max: 25}}>
         <Swing>
-        <div className={style.project}>
-            <div className={style.img} style={props.style} >
-                <Button color={"inherit"}
-                        className={styles.btn}>
-                    <a href={props.href}
-                       style={{color: 'white'}}>project</a>
-                </Button>
+            <a href={props.href} className={stylehref.href}
+               style={{color: 'white'}}>
+                <div className={style.project}>
+           <div className={style.img} style={props.style} >
             </div>
 
             <div className={style.info}>
@@ -23,9 +20,10 @@ const Project = (props) => {
                 </h4>
                 <p className={style.description}>{props.description}</p>
             </div>
-        </div>
+        </div> </a>
             </Swing>
-    );
-};
+        </Tilt>
+    )
+}
 
 export default Project;

@@ -2,21 +2,20 @@
 @import '../common/sass/variables';
 
 .homeWorkBlock {
-  height: 70vh;
+  padding: 30px;
+  height: 80vh;
   background-color: $bgColor;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 
   .homeWork {
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60%;
     text-align: center;
-    background-color: $phoneColor;
     color: white;
 
 
