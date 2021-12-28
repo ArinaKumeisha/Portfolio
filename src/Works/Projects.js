@@ -6,6 +6,7 @@ import style from './Projects.module.scss';
 import todoImage from '../assets/image/social.jpg'
 import socialImage from '../assets/image/images.jpg'
 import counterImage from '../assets/image/counter.png'
+import weatherImage from '../assets/image/weather.jpg'
 
 
 const Projects = () => {
@@ -20,6 +21,10 @@ const Projects = () => {
     const counter = {
         color: 'blue',
         backgroundImage: `url(${counterImage})`,
+    }
+    const weather = {
+        color: 'blue',
+        backgroundImage: `url(${weatherImage})`,
     }
 
     return (
@@ -42,6 +47,11 @@ const Projects = () => {
                         title={"Social Network"}
                         description={"The project is written in React, Redux and TypeScript"}
                         href={'https://arinakumeisha.github.io/my_new_social_network/'}/>
+                    <Project
+                        style={weather}
+                        title={"Weather"}
+                        description={"The project is written in React, Redux and TypeScript. See the weather in any city"}
+                        href={'https://arinakumeisha.github.io/weather/'}/>
                 </div>
             </div>
         </div>
