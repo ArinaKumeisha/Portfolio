@@ -8,6 +8,7 @@ import socialImage from '../assets/image/images.jpg'
 import counterImage from '../assets/image/counter.png'
 import weatherImage from '../assets/image/weather.jpg'
 import gamesImage from '../image/games.jpg';
+import ring from '../image/ring.jpg';
 
 const Projects = () => {
     const todo = {
@@ -29,6 +30,10 @@ const Projects = () => {
     const games = {
         color: 'blue',
         backgroundImage: `url(${gamesImage})`,
+    }
+    const ringGame = {
+        color: 'blue',
+        backgroundImage: `url(${ring})`,
     }
 
     return (
@@ -61,6 +66,11 @@ const Projects = () => {
                         title={"Games"}
                         description={"The project is written in React, Redux and TypeScript. Games shop"}
                         href={'https://arinakumeisha.github.io/shops_games/'}/>
+                    <Project
+                      style={ringGame}
+                      title={"Elden Ring"}
+                      description={"The project is written in React, Redux and TypeScript. This game - Elden Ring"}
+                      href={'https://arinakumeisha.github.io/trainee_project/'}/>
                 </div>
             </div>
         </div>
