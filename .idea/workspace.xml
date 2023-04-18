@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2df6ee6b-1ff4-4bcb-9403-62abafbccf2d" name="Default Changelist" comment="add one project">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/ar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Works/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Works/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.module.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1vtfFSdD1ux5L1aPhxeBLW32aQ7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/image" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\arina\learn\portfolio\src\assets\image" />
+      <recent name="C:\Users\arina\learn\portfolio\src\header" />
+      <recent name="D:\portfolio\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arina\learn\portfolio\src\assets\image" />
+      <recent name="C:\Users\arina\learn\portfolio\src\common\components\title" />
+      <recent name="D:\portfolio\src\Projects\Project" />
+      <recent name="D:\portfolio\src\Projects" />
+      <recent name="D:\portfolio\src\common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2df6ee6b-1ff4-4bcb-9403-62abafbccf2d" name="Default Changelist" comment="" />
+      <created>1627386213280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627386213280</updated>
+      <workItem from="1627386220996" duration="12036000" />
+      <workItem from="1627467017589" duration="6073000" />
+      <workItem from="1628539573316" duration="1377000" />
+      <workItem from="1628542509813" duration="646000" />
+      <workItem from="1628544861350" duration="656000" />
+      <workItem from="1629221517593" duration="14015000" />
+      <workItem from="1629288754749" duration="12981000" />
+      <workItem from="1629304285844" duration="12172000" />
+      <workItem from="1629379083943" duration="320000" />
+      <workItem from="1629394084416" duration="629000" />
+      <workItem from="1629493845053" duration="1013000" />
+      <workItem from="1629624605855" duration="616000" />
+      <workItem from="1629720934670" duration="1450000" />
+      <workItem from="1630253452035" duration="42000" />
+      <workItem from="1633458778438" duration="10244000" />
+      <workItem from="1633530743368" duration="27020000" />
+      <workItem from="1633637778257" duration="10253000" />
+      <workItem from="1634045859042" duration="6129000" />
+      <workItem from="1634149702208" duration="10771000" />
+      <workItem from="1634203327875" duration="9963000" />
+      <workItem from="1636486060038" duration="18542000" />
+      <workItem from="1636543710740" duration="11669000" />
+      <workItem from="1636717316625" duration="11848000" />
+      <workItem from="1637070398168" duration="5527000" />
+      <workItem from="1637081782665" duration="13228000" />
+      <workItem from="1637242204584" duration="744000" />
+      <workItem from="1637413077503" duration="4941000" />
+      <workItem from="1637490413013" duration="13000" />
+      <workItem from="1638885375955" duration="610000" />
+      <workItem from="1638906049983" duration="967000" />
+      <workItem from="1639585677306" duration="280000" />
+      <workItem from="1640684042127" duration="789000" />
+      <workItem from="1643907788564" duration="620000" />
+      <workItem from="1644514944682" duration="60000" />
+      <workItem from="1644951587203" duration="82000" />
+      <workItem from="1645533236103" duration="724000" />
+      <workItem from="1649960054309" duration="8000" />
+      <workItem from="1653061694615" duration="1916000" />
+      <workItem from="1654028594484" duration="418000" />
+      <workItem from="1654080224229" duration="604000" />
+      <workItem from="1656331620809" duration="3219000" />
+      <workItem from="1656343371084" duration="2350000" />
+      <workItem from="1656515089244" duration="131000" />
+      <workItem from="1656515245607" duration="571000" />
+      <workItem from="1656516546482" duration="2568000" />
+      <workItem from="1656529553624" duration="247000" />
+      <workItem from="1667394478119" duration="1202000" />
+      <workItem from="1668182019393" duration="747000" />
+      <workItem from="1681826846513" duration="1017000" />
+    </task>
+    <task id="LOCAL-00001" summary="Portfolio, level 1">
+      <created>1629493995550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629493995550</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Portfolio, level 1">
+      <created>1629495190746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629495190746</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Portfolio, level 3">
+      <created>1636555273630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636555273631</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Portfolio, level 3/2">
+      <created>1636729605124</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636729605124</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Portfolio, level 3/3">
+      <created>1637075958472</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637075958472</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Portfolio, level 3/4">
+      <created>1637095274969</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637095274969</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Portfolio, level 3/5">
+      <created>1637242942132</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1637242942132</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Portfolio, mistakes in words">
+      <created>1637416647751</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637416647751</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Portfolio add Weather project">
+      <created>1640684745452</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640684745452</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Portfolio add Games Shop">
+      <created>1645533776509</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645533776509</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add one project">
+      <created>1654028886870</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654028886870</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Portfolio, level 1" />
+    <MESSAGE value="Portfolio, level 3" />
+    <MESSAGE value="Portfolio, level 3/2" />
+    <MESSAGE value="Portfolio, level 3/3" />
+    <MESSAGE value="Portfolio, level 3/4" />
+    <MESSAGE value="Portfolio, level 3/5" />
+    <MESSAGE value="Portfolio, mistakes in words" />
+    <MESSAGE value="Portfolio add Weather project" />
+    <MESSAGE value="Portfolio add Games Shop" />
+    <MESSAGE value="add one project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add one project" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

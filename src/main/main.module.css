@@ -1,0 +1,73 @@
+.mainBlock {
+  margin-top: 80px;
+  height: calc(100vh - 60px);
+  background-color: #1c1f2c;
+  position: relative;
+  z-index: 3;
+}
+.mainBlock .particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.3;
+}
+.mainBlock .mainContainer {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 835px) {
+  .mainBlock .mainContainer {
+    justify-content: center;
+  }
+}
+.mainBlock .mainContainer .greeting {
+  font-size: 40px;
+  color: #ffffff;
+  width: 600px;
+  height: 500px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.mainBlock .mainContainer .greeting span {
+  letter-spacing: 5px;
+}
+.mainBlock .mainContainer .greeting .name {
+  position: relative;
+  display: inline-block;
+}
+.mainBlock .mainContainer .greeting .name:before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 100%;
+  background-color: red;
+  bottom: 0;
+  z-index: -1;
+}
+.mainBlock .mainContainer .photo {
+  margin-top: 60px;
+  width: 300px;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  border-right: solid 4px red;
+  border-bottom: solid 4px red;
+}
+
+.mainPhoto {
+  background-image: url("../assets/image/ar.png");
+  background-position: top;
+  background-size: cover;
+  height: 80vh;
+  width: 50%;
+  opacity: 0.9;
+}
+
+/*# sourceMappingURL=main.module.css.map */

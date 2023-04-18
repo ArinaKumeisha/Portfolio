@@ -18,18 +18,20 @@ const Main = () => {
                     <span>I am </span>
                     <span> Arina </span>
                     <span className={style.name}>Kumeisha</span>
-
                     <h5><ReactTypingEffect
-                        text={["I like React and Redux.", "And I am React developer"]}
+                        text={["I have experience in React, Redux, TypeScript, JavaScript."]}
                     />
                     </h5>
 
                 </div>
-                <Tilt className="Tilt" options={{max: 25}}>
+               {/* <Tilt className="Tilt" options={{max: 25}}>
                     <div style={photo} className={style.photo}>
-
                     </div>
-                </Tilt>
+                </Tilt>*/}
+                
+                <div className={style.mainPhoto}>
+                
+                </div>
 
             </div>
         </div>
